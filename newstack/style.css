@@ -4,10 +4,10 @@ Theme URI: https://themeansar.com/free-themes/newstack-free-blog-magazine-elemen
 Author: Themeansar
 Author URI: https://themeansar.com
 Description: Newstack is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Newstack is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Newstack is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://newsup.themeansar.com/newstack/ and documentation at https://docs.themeansar.com/docs/newsup/
-Version: 2.6
+Version: 2.7
 Requires PHP: 7.4
 Requires at least: 6.6
-Tested up to: 6.9
+Tested up to: 7.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Template: newsup
@@ -37,7 +37,10 @@ span.time {
     line-height: 35px;
 }
 .mg-social li span.icon-soci { 
-    float: unset;
+    float: inherit;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 .mg-headwidget.center .heacent {
     margin-top: unset !important;
@@ -102,9 +105,6 @@ span.time {
 }
 .mg-blog-post.lg.mins h4.title {
 	font-size: 22px;
-}
-.mg-blog-post-box .mg-header {
-    padding: 20px 20px;
 }
 footer .site-description {
     letter-spacing: 1.2px; 
